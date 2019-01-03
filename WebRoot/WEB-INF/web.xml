@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>ScoreByCourse</servlet-name>
+    <servlet-class>com.edcu.ScoreByCourse</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ScoreServlet</servlet-name>
+    <servlet-class>com.edcu.servlet.ScoreServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateServlet</servlet-name>
+    <servlet-class>com.edcu.servlet.UpdateServlet</servlet-class>
+  </servlet>
+
+
+
+  <servlet-mapping>
+    <servlet-name>ScoreByCourse</servlet-name>
+    <url-pattern>/ScoreByCourse</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ScoreServlet</servlet-name>
+    <url-pattern>/ScoreServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateServlet</servlet-name>
+    <url-pattern>/UpdateServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
